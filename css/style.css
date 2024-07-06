@@ -41,7 +41,7 @@ header {
 
   padding: 8px;
   margin: 0 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #9e9c9c;
   border-radius: 4px;
 }
 
@@ -65,4 +65,35 @@ header {
 
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
+}
+/**/
+
+li{
+  list-style: none;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f3f2f2;
+}
+
+.card {
+  border: solid 1px rgb(214, 207, 193);
+  background-color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.name {
+  background-color: white;
+  border: rgb(214, 207, 193) solid 1px;
+  margin-top: -20px;
+  text-align: center;
+  width: 300px;
+  height: 55px;
 }
